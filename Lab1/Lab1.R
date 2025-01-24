@@ -77,11 +77,11 @@ summary(SPI.new)
 fivenum(SPI.new,na.rm=TRUE) 
 stem(SPI.new) # stem and leaf plot 
 hist(SPI.new) 
-hist(SPI.new, seq(10., 80., 1.0), prob=TRUE) 
+hist(SPI.new, seq(0., 100., 1.0), prob=TRUE) 
 lines(density(SPI.new,na.rm=TRUE,bw=1.)) # or try bw=“SJ” 
 rug(SPI.new)
 boxplot(SPI.new, APO.new) 
-hist(SPI.new, seq(10., 80., 1.0), prob=TRUE)
+hist(SPI.new, seq(0., 100., 1.0), prob=TRUE)
 lines(density(SPI.new,na.rm=TRUE,bw=1.))
 rug(SPI.new)
 x<-seq(10,80,1) 
